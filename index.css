@@ -1,0 +1,152 @@
+.collegesContainer{
+    margin-left: 100px;
+    position: relative;
+}
+
+
+.showColleges{
+    display: flex;
+    flex-wrap: wrap;
+}
+.collegeCommon{
+    margin:37.35px 30.9px;
+    width: 639px;
+    height: 393.5px;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+.collegeUpper{
+    border-radius: 3.8px;
+    box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+    border: solid 0.2px var(--greyish-brown);
+    background-image: linear-gradient( rgba(0,0,0,.5),rgba(0,0,0.5)) ,url('./images/college_02.jpg');
+    /* background-color:rgba(red,0,0, 0.99); */
+    position: relative;
+    height: 233.2px;
+}
+.collegeLowerContainer{
+    border-radius: 3.8px;
+    box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+    border: solid 0.2px var(--greyish-brown);
+    background-color:#ffffff;
+    padding-bottom: 10px;
+}
+.collegeLower{
+    padding-left: 17px;
+}
+
+.rating{
+    font-size: 16.5px;
+    position: absolute;
+    width:75px;
+    height:53px;
+    padding: 0;
+    margin: 0;
+    margin-left:549.3px;
+    margin-top: 28.3px;
+    background-color:#f5a626;
+    text-align: center;
+    border-radius: 3.8px;
+}
+.rating span{
+    font-size: 16px;
+}
+
+.collegeName{
+    padding-top: 18px;
+    font-size: 18.5px;
+    color: #444444;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 0.97;
+    font-family: DINpro;
+}
+.collegeName span{
+    width:12px;
+    height: 11px;
+    background-color: #444444;
+}
+
+.nearestPlace{
+    margin: 0;
+    padding: 0;
+}
+.nearestPlace span{
+    font-size: 13.5px;
+    margin-left: 4px;
+    color: #444444;
+}
+
+.nearestPlace span:nth-child(2){
+    padding:0 .8px;
+    height: 0;
+    background-color: #adadad;
+}
+.nearestPlace span:nth-child(3){
+    padding:0 1px;
+    font-weight: 400;
+    color:#adadad;
+}
+
+.famousNearestPlace{
+    margin: 0;
+    margin-top: 150x;
+    padding: 0;
+}
+.famousNearestPlace span{
+    font-size: 13.5px;
+    margin-left: 4px;
+    color: #adadad;
+}
+
+.famousNearestPlace > span{
+    color: #37b396;
+}
+
+.wordBold{
+    color: #444444;
+}
+
+.offerText{
+    font-size: 13.5px;
+    margin: 0;
+    padding: 11px 0;
+    padding-left:20px;
+    margin-top:9px;
+    width:347px;
+    /* height:35px; */
+    background-color: #ccf5e7;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+    color: #444444;
+    font-weight: medium;
+}
+
+.login{
+    color: #1999d2;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.arrow{
+    width: 152px;
+    height: 33px;
+    position: relative;
+    background: #68a7ff;
+    margin-top: 0px;
+    margin-left: 486px;
+}
+.arrow:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 33px solid white;
+    border-top: 16.5px solid transparent;
+    border-bottom: 16.5px solid transparent;
+  }
+
